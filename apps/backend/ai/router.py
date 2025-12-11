@@ -15,7 +15,7 @@ MAX_RETRIES = 3
 
 
 def generate_with_openai(user_text: str) -> str:
-    """Generate workout program using OpenAI gpt-4o-mini."""
+    """Generate workout program using OpenAI gpt-5-mini."""
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
     response = client.chat.completions.create(
