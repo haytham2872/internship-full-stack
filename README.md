@@ -148,6 +148,10 @@ JWT_SECRET=your-secret-key-here
 JWT_ALGORITHM=HS256
 JWT_EXPIRATION_MINUTES=30
 
+# CORS Configuration
+# Comma-separated list of allowed origins
+CORS_ORIGINS=http://localhost:3000,http://127.0.0.1:3000
+
 # OpenAI
 OPENAI_API_KEY=your-openai-api-key
 
